@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Su
 %define devname %mklibname KF6Su -d
-%define git 20230726
+%define git 20230802
 
 Name: kf6-kdesu
 Version: 5.240.0
