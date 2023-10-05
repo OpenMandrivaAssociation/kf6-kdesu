@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Su
 %define devname %mklibname KF6Su -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kdesu
 Version: 5.240.0
@@ -74,7 +74,6 @@ User interface for running shell commands with root privileges
 %files -n %{devname}
 %{_includedir}/KF6/KDESu
 %{_libdir}/cmake/KF6Su
-%{_qtdir}/mkspecs/modules/qt_KDESu.pri
 %{_qtdir}/doc/KF6Su.*
 
 %files -n %{libname}
